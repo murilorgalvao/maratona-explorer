@@ -1,5 +1,4 @@
 * {
-    font-size: 62, 5%;
     padding: 0;
     margin: 0;
     vertical-align: baseline;
@@ -29,31 +28,14 @@
 body {
     font-family: bold, sans-serif;
     color: white;
-    background: linear-gradient(to left bottom, #1d0110, #141414, #030303, #19022c, #140324, #140324);
-    background-size: 300% 300%;
-    animation: colors 5s ease infinite;
+    background-image: url("/assets/img/bg.jpg");
+    background-repeat: no-repeat;
+    /*background: linear-gradient(to left bottom, #1d0110, #141414, #030303, #19022c, #140324, #140324);*/
+    background-size: 100%;
+    /*animation: colors 5s ease infinite;*/
+
 
 }
-
-.body {
-    display: flex;
-    padding: 20rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-.initial {
-    width: 40rem;
-    height: 40rem;
-    background-color: rgb(44, 44, 63);
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    border-radius: 2rem;
-}
-
 
 img {
     width: 45%;
@@ -81,6 +63,29 @@ button {
     color: white;
     border: none;
 }
+
+.body {
+    display: flex;
+    padding: 20rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.initial {
+    width: 40rem;
+    height: 40rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2rem;
+    background: black;
+    box-shadow: rgba(0, 0, 0, 0.753) 0px 22px 70px 4px;
+    backdrop-filter: blur(8px);
+    -webkit-backdrop-filter: blur(8px);
+}
+
 
 .caixa {
     border-radius: 0.5rem;
