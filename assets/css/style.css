@@ -28,7 +28,7 @@
 body {
     font-family: bold, sans-serif;
     color: white;
-    background-image: url("/assets/img/bg.jpg");
+    background-image: url("assets/img/bg.jpg");
     background-repeat: no-repeat;
     /*background: linear-gradient(to left bottom, #1d0110, #141414, #030303, #19022c, #140324, #140324);*/
     background-size: 100%;
