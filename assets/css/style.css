@@ -28,12 +28,13 @@
 body {
     font-family: bold, sans-serif;
     color: white;
-    background-image: url("fundo.jpg");
+    background-image: url("img/fundo.jpg");
+    background-size: 100%;
     background-repeat: no-repeat;
     /*background: linear-gradient(to left bottom, #1d0110, #141414, #030303, #19022c, #140324, #140324);*/
     background-size: 100%;
     /*animation: colors 5s ease infinite;*/
-
+    text-align: center;
 
 }
 
@@ -45,45 +46,53 @@ img {
 
 h1 {
     margin: 1rem 0;
-    ;
+    opacity: 0.9;
 }
 
 p {
-    margin-bottom: 2rem;
-    font-size: 1rem;
+    margin-bottom: 1rem;
+    font-size: 16px;
+    opacity: 0.7;
 }
 
+
 input {
-    padding-left: 1rem;
-    margin: 1rem 0;
+    text-align: center;
+    font-size: 15px;
+    margin-bottom: 2rem;
 }
 
 button {
     background-color: #7f30db;
     color: white;
     border: none;
+    transition: filter .2s;
 }
 
-.body {
-    display: flex;
-    padding: 20rem;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+button:hover {
+    filter: brightness(1.2);
+    cursor: pointer;
+}
+
+#container {
+    margin-top: 100px;
+    width: 80%;
+    max-width: 400px;
+    margin-inline: auto;
 }
 
 .initial {
-    width: 40rem;
-    height: 40rem;
+    width: 42rem;
+    height: 42rem;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border-radius: 2rem;
-    background: black;
-    box-shadow: rgba(0, 0, 0, 0.753) 0px 22px 70px 4px;
-    backdrop-filter: blur(8px);
-    -webkit-backdrop-filter: blur(8px);
+
+    box-shadow: rgba(0, 0, 0, 0.705) 0px 0px 50px 2px;
+    backdrop-filter: blur(3px);
+
 }
 
 
