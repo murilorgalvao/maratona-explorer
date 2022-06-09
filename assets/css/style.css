@@ -55,9 +55,15 @@ p {
     opacity: 0.7;
 }
 
+input,
+button {
+    border-radius: 0.5rem;
+    width: 25rem;
+    height: 4rem;
+    text-align: center;
+}
 
 input {
-    text-align: center;
     font-size: 15px;
     margin-bottom: 2rem;
 }
@@ -89,15 +95,6 @@ button:hover {
     align-items: center;
     justify-content: center;
     border-radius: 2rem;
-
     box-shadow: rgba(0, 0, 0, 0.705) 0px 0px 50px 2px;
     backdrop-filter: blur(3px);
-
-}
-
-
-.caixa {
-    border-radius: 0.5rem;
-    width: 25rem;
-    height: 4rem;
 }
