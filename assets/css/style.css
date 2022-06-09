@@ -11,29 +11,13 @@
     /* 1rem = 10px */
 }
 
-@keyframes colors {
-    0% {
-        background-position: 0% 50%;
-    }
-
-    50% {
-        background-position: 100% 50%;
-    }
-
-    100% {
-        background-position: 0% 50%;
-    }
-}
-
 body {
     font-family: bold, sans-serif;
     color: white;
     background-image: url("img/fundo.jpg");
     background-size: 100%;
     background-repeat: no-repeat;
-    /*background: linear-gradient(to left bottom, #1d0110, #141414, #030303, #19022c, #140324, #140324);*/
     background-size: 100%;
-    /*animation: colors 5s ease infinite;*/
     text-align: center;
 
 }
