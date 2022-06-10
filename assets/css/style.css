@@ -6,6 +6,14 @@
     font-family: 'Courier New', Courier, monospace;
 }
 
+html {
+    min-height: 100%;
+    background-image: url(img/fundo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
 :root {
     font-size: 62.5%;
     /* 1rem = 10px */
@@ -14,12 +22,7 @@
 body {
     font-family: bold, sans-serif;
     color: white;
-    background-image: url("img/fundo.jpg");
-    background-size: 100%;
-    background-repeat: no-repeat;
-    background-size: 100%;
     text-align: center;
-
 }
 
 img {
@@ -81,4 +84,15 @@ button:hover {
     border-radius: 2rem;
     box-shadow: rgba(0, 0, 0, 0.705) 0px 0px 50px 2px;
     backdrop-filter: blur(3px);
+}
+
+@media only screen and (max-width: 767px) {
+    html {
+        background-image: url(img/fundo-menor.jpg);
+    }
+
+    body {
+        width: 50%;
+        height: 50%;
+    }
 }
