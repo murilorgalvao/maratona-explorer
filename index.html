@@ -6,19 +6,21 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Maratona Explorer</title>
+    <script type="text/javascript" src="assets/js/script.js" defer></script>
     <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
 <body>
-    <div id="container" class="">
+    <div id="container">
         <div class="initial">
             <img src="assets/img/cristal-ball.svg" alt="Imagem de uma bola de cristal">
             <h1>Vou revelar seu destino!</h1>
             <p> Clique em fazer pergunta para que seu destino seja revelado.</p>
-            <input class="caixa" type="text" placeholder="Digite sua pergunta" />
-            <button class="caixa">Fazer Pergunta</button>
-        </div>
+            <input id="inputPergunta" class="caixa" type="text" placeholder="Digite sua pergunta">
+            <button id="buttonPerguntar" onclick="fazerPergunta()" class="caixa">Fazer Pergunta</button>
 
+            <h1 id="resposta" class="caixa"></h1>
+        </div>
     </div>
 
 </body>
