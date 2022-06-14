@@ -21,7 +21,10 @@ const respostas = [
     "Sim.",
     "Concentre-se e pergunte novamente.",
     "Sinais apontam que sim.",
-    "Sem previsão."
+    "Sem previsão.",
+    "Talvez.",
+    "É díficil dizer.",
+    "Sinto muito, mas não."
 ]
 
 function fazerPergunta() {
