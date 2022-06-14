@@ -99,13 +99,14 @@ button:hover {
     backdrop-filter: blur(3px);
 }
 
-@media only screen and (max-width: 767px) {
+@media only screen and (max-width: 768px) {
     html {
-        background-image: url(img/fundo-menor.jpg);
+        width: 100%;
     }
-
     body {
-        width: 50%;
-        height: 50%;
+        width: 100%;
+    }
+    .initial {
+        width: 100%;
     }
 }
